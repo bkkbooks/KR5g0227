@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5g0227/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5g0227/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 元始說度酆都經
+  date: '2015-08-29 03:00:26.847356'
+  source:
+    repository: kanripo
+    path: KR5g0227
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0227_000-HFL.yaml, hash: 'sha256:d986c2c11980624dd2785c60a24603b8ffe3a502b55349e7cd3ea8b77a3dcf0c'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5g0227_000-HFL.markers.yaml, hash: 'sha256:257cbde875a5f09b57e1d54fa1bcd5a56a47c3cad17064fb0cb9908ec86d4bb8'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5g0227_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 328
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:676404866e9d841c9d1c1c3084240d65e0f178432f9b0ea74d0c9370adabdbb0
